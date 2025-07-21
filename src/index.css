@@ -57,3 +57,64 @@ article h3 {
   color: var(--link);
   margin-bottom: 0rem;
 }
+
+/*****************************/
+.article-button {
+  background-color: #00bcd4;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.article-button:hover {
+  background-color: #008c9e;
+  transform: scale(1.03);
+}
+
+
+.article-paragraph {
+  background-color: #1e1e2f;
+  color: #e4e4e4;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-left: 5px solid #00bcd4;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  white-space: pre-line;
+}
+
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+.like-button {
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+  color: #ff4081;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.like-button:hover {
+  transform: scale(1.1);
+}
